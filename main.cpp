@@ -7,7 +7,6 @@
 #include "ray.h"
 #include "vec3.h"
 #include "camera.h"
-#include <cmath>
 
 color ray_color(const ray& r, const hittable& world, int depth) {
     hit_record rec;
